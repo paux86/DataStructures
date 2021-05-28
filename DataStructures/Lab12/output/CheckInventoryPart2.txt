@@ -1,0 +1,68 @@
+How many CarIDs to generate?
+5
+
+*** Checking if "sortedFile.txt" and "randomFile.txt" have the same elements ***
+The content of the hash table after file randomFile.txt was processed:
+The size of hash table is: 11
+0	KEY: CarID(NQD 69814470221824)	VALUE: 1
+1	KEY: CarID(YGS 77935188025344)	VALUE: 1
+2	null
+3	KEY: CarID(FPE 94493037731840)	VALUE: 1
+4	KEY: CarID(HGO 24873892225024)	VALUE: 1
+5	KEY: CarID(PPS 61689792995328)	VALUE: 1
+6	null
+7	null
+8	null
+9	null
+10	null
+
+The content of the hash table after file sortedFile.txt was processed:
+The size of hash table is: 11
+0	notIn
+1	notIn
+2	null
+3	notIn
+4	notIn
+5	notIn
+6	null
+7	null
+8	null
+9	null
+10	null
+
+--> the elements in files "randomFile.txt" and "sortedFile.txt are the same
+
+*** Checking if "sortedFile.txt" and "corruptedFile.txt" have the same elements ***
+The content of the hash table after file sortedFile.txt was processed:
+The size of hash table is: 11
+0	KEY: CarID(PPS 61689792995328)	VALUE: 1
+1	KEY: CarID(YGS 77935188025344)	VALUE: 1
+2	null
+3	KEY: CarID(FPE 94493037731840)	VALUE: 1
+4	KEY: CarID(HGO 24873892225024)	VALUE: 1
+5	KEY: CarID(NQD 69814470221824)	VALUE: 1
+6	null
+7	null
+8	null
+9	null
+10	null
+
+The content of the hash table after file corruptedFile.txt was processed:
+The size of hash table is: 11
+0	KEY: CarID(PPS 61689792995328)	VALUE: 1
+1	notIn
+2	null
+3	notIn
+4	KEY: CarID(HGO 24873892225024)	VALUE: 1
+5	notIn
+6	null
+7	null
+8	null
+9	null
+10	null
+
+--> the elements in files "corruptedFile.txt" and "sortedFile.txt are NOT the same
+
+Bye!
+
+Process finished with exit code 0

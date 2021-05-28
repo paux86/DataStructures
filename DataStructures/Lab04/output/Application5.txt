@@ -1,0 +1,133 @@
+SortStack
+Setting the original stack to:
+03 09 01 04 06 05 07 08 00 02 
+
+***Calling sort method***
+Push 02 from original to destination
+Push 00 to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 02 from destination to temp
+Push 08 to destination
+Moving entries from temp to destination
+--> push 02 from temp to destination
+--> push 00 from temp to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 02 from destination to temp
+Push 07 to destination
+Moving entries from temp to destination
+--> push 02 from temp to destination
+--> push 00 from temp to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 02 from destination to temp
+Push 05 to destination
+Moving entries from temp to destination
+--> push 02 from temp to destination
+--> push 00 from temp to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 02 from destination to temp
+--> push 05 from destination to temp
+Push 06 to destination
+Moving entries from temp to destination
+--> push 05 from temp to destination
+--> push 02 from temp to destination
+--> push 00 from temp to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 02 from destination to temp
+Push 04 to destination
+Moving entries from temp to destination
+--> push 02 from temp to destination
+--> push 00 from temp to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+Push 01 to destination
+Moving entries from temp to destination
+--> push 00 from temp to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 01 from destination to temp
+--> push 02 from destination to temp
+--> push 04 from destination to temp
+--> push 05 from destination to temp
+--> push 06 from destination to temp
+--> push 07 from destination to temp
+--> push 08 from destination to temp
+Push 09 to destination
+Moving entries from temp to destination
+--> push 08 from temp to destination
+--> push 07 from temp to destination
+--> push 06 from temp to destination
+--> push 05 from temp to destination
+--> push 04 from temp to destination
+--> push 02 from temp to destination
+--> push 01 from temp to destination
+--> push 00 from temp to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 01 from destination to temp
+--> push 02 from destination to temp
+Push 03 to destination
+Moving entries from temp to destination
+--> push 02 from temp to destination
+--> push 01 from temp to destination
+--> push 00 from temp to destination
+
+Stack should be sorted (with sort()) ....
+00 01 02 03 04 05 06 07 08 09 
+
+===================================
+
+Testing the revised method
+Setting the original stack to:
+03 09 01 04 06 05 07 08 00 02 
+
+***Calling sortRevised method***
+--> push 02 from original to destination
+Moving entries from temp to destination
+push 00 from original to destination
+Moving entries from destination to temp
+--> push 00 from destination to temp
+--> push 02 from destination to temp
+push 08 from original to destination
+Moving entries from temp to destination
+push 07 from original to destination
+Moving entries from temp to destination
+push 05 from original to destination
+Moving entries from destination to temp
+--> push 05 from destination to temp
+push 06 from original to destination
+Moving entries from temp to destination
+--> push 05 from temp to destination
+push 04 from original to destination
+Moving entries from temp to destination
+--> push 02 from temp to destination
+push 01 from original to destination
+Moving entries from destination to temp
+--> push 01 from destination to temp
+--> push 02 from destination to temp
+--> push 04 from destination to temp
+--> push 05 from destination to temp
+--> push 06 from destination to temp
+--> push 07 from destination to temp
+--> push 08 from destination to temp
+push 09 from original to destination
+Moving entries from temp to destination
+--> push 08 from temp to destination
+--> push 07 from temp to destination
+--> push 06 from temp to destination
+--> push 05 from temp to destination
+--> push 04 from temp to destination
+push 03 from original to destination
+Moving any remaining entries from temp to destination
+--> push 02 from temp to destination
+--> push 01 from temp to destination
+--> push 00 from temp to destination
+
+Stack should be sorted (with sortRevised()) ....
+00 01 02 03 04 05 06 07 08 09 
+
+Process finished with exit code 0

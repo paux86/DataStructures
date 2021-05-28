@@ -1,0 +1,831 @@
+**************  TRAIN SIMULATION  **************
+
+--> Creating 10 stations:
+Station 0 has no passengers waiting; the time to next station is 6
+Station 1 has no passengers waiting; the time to next station is 6
+Station 2 has no passengers waiting; the time to next station is 5
+Station 3 has no passengers waiting; the time to next station is 7
+Station 4 has no passengers waiting; the time to next station is 5
+Station 5 has no passengers waiting; the time to next station is 8
+Station 6 has no passengers waiting; the time to next station is 9
+Station 7 has no passengers waiting; the time to next station is 7
+Station 8 has no passengers waiting; the time to next station is 5
+Station 9 has no passengers waiting; the time to next station is 7
+
+--> Starting the clock; duration set to 50
+
+Passenger arrived at time marker 0 at station 6 heading to 8
+Passenger arrived at time marker 0 at station 6 heading to 9
+Passenger arrived at time marker 0 at station 0 heading to 4
+Passenger arrived at time marker 0 at station 8 heading to 9
+Passenger arrived at time marker 0 at station 7 heading to 8
+Passenger arrived at time marker 0 at station 2 heading to 4
+Passenger arrived at time marker 0 at station 1 heading to 5
+New train: Train 1 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+	Train 1 is at station 0; unloaded 0; loaded 1 passengers; Space left 19
+Train 1 capacity of 20 arriving at station 1 in 6 minutes; currently 1 passengers on board
+-----At time marker 0 -> passengers waiting: 6	 on trains: 1	 active trains: 1-----
+
+Passenger arrived at time marker 1 at station 4 heading to 5
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 1 in 5 minutes; currently 1 passengers on board
+-----At time marker 1 -> passengers waiting: 7	 on trains: 1	 active trains: 1-----
+
+Passenger arrived at time marker 2 at station 8 heading to 9
+Passenger arrived at time marker 2 at station 0 heading to 5
+Passenger arrived at time marker 2 at station 8 heading to 9
+Passenger arrived at time marker 2 at station 5 heading to 7
+Passenger arrived at time marker 2 at station 8 heading to 9
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 1 in 4 minutes; currently 1 passengers on board
+-----At time marker 2 -> passengers waiting: 12	 on trains: 1	 active trains: 1-----
+
+Passenger arrived at time marker 3 at station 6 heading to 8
+Passenger arrived at time marker 3 at station 6 heading to 8
+Passenger arrived at time marker 3 at station 1 heading to 8
+Passenger arrived at time marker 3 at station 6 heading to 7
+Passenger arrived at time marker 3 at station 1 heading to 7
+Passenger arrived at time marker 3 at station 4 heading to 8
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 1 in 3 minutes; currently 1 passengers on board
+-----At time marker 3 -> passengers waiting: 18	 on trains: 1	 active trains: 1-----
+
+Passenger arrived at time marker 4 at station 5 heading to 7
+Passenger arrived at time marker 4 at station 7 heading to 9
+Passenger arrived at time marker 4 at station 5 heading to 8
+Passenger arrived at time marker 4 at station 6 heading to 9
+Passenger arrived at time marker 4 at station 6 heading to 8
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 1 in 2 minutes; currently 1 passengers on board
+-----At time marker 4 -> passengers waiting: 23	 on trains: 1	 active trains: 1-----
+
+Passenger arrived at time marker 5 at station 2 heading to 6
+Passenger arrived at time marker 5 at station 6 heading to 9
+Passenger arrived at time marker 5 at station 2 heading to 8
+Passenger arrived at time marker 5 at station 2 heading to 4
+Passenger arrived at time marker 5 at station 3 heading to 5
+New train: Train 2 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 1 in 1 minutes; currently 1 passengers on board
+	Train 2 is at station 0; unloaded 0; loaded 1 passengers; Space left 19
+Train 2 capacity of 20 arriving at station 1 in 6 minutes; currently 1 passengers on board
+-----At time marker 5 -> passengers waiting: 27	 on trains: 2	 active trains: 2-----
+
+Passenger arrived at time marker 6 at station 5 heading to 9
+Passenger arrived at time marker 6 at station 5 heading to 9
+
+>> Moving each train <<
+	Train 1 is at station 1; unloaded 0; loaded 3 passengers; Space left 16
+Train 1 capacity of 20 arriving at station 2 in 6 minutes; currently 4 passengers on board
+Train 2 capacity of 20 arriving at station 1 in 5 minutes; currently 1 passengers on board
+-----At time marker 6 -> passengers waiting: 26	 on trains: 5	 active trains: 2-----
+
+Passenger arrived at time marker 7 at station 2 heading to 6
+Passenger arrived at time marker 7 at station 3 heading to 4
+Passenger arrived at time marker 7 at station 7 heading to 8
+Passenger arrived at time marker 7 at station 6 heading to 8
+Passenger arrived at time marker 7 at station 7 heading to 8
+Passenger arrived at time marker 7 at station 7 heading to 9
+Passenger arrived at time marker 7 at station 8 heading to 9
+Passenger arrived at time marker 7 at station 1 heading to 5
+Passenger arrived at time marker 7 at station 1 heading to 3
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 2 in 5 minutes; currently 4 passengers on board
+Train 2 capacity of 20 arriving at station 1 in 4 minutes; currently 1 passengers on board
+-----At time marker 7 -> passengers waiting: 35	 on trains: 5	 active trains: 2-----
+
+Passenger arrived at time marker 8 at station 3 heading to 9
+Passenger arrived at time marker 8 at station 0 heading to 1
+Passenger arrived at time marker 8 at station 1 heading to 8
+Passenger arrived at time marker 8 at station 0 heading to 1
+Passenger arrived at time marker 8 at station 5 heading to 6
+Passenger arrived at time marker 8 at station 8 heading to 9
+Passenger arrived at time marker 8 at station 4 heading to 7
+Passenger arrived at time marker 8 at station 1 heading to 4
+Passenger arrived at time marker 8 at station 2 heading to 8
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 2 in 4 minutes; currently 4 passengers on board
+Train 2 capacity of 20 arriving at station 1 in 3 minutes; currently 1 passengers on board
+-----At time marker 8 -> passengers waiting: 44	 on trains: 5	 active trains: 2-----
+
+Passenger arrived at time marker 9 at station 6 heading to 8
+Passenger arrived at time marker 9 at station 5 heading to 9
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 2 in 3 minutes; currently 4 passengers on board
+Train 2 capacity of 20 arriving at station 1 in 2 minutes; currently 1 passengers on board
+-----At time marker 9 -> passengers waiting: 46	 on trains: 5	 active trains: 2-----
+
+Passenger arrived at time marker 10 at station 4 heading to 6
+Passenger arrived at time marker 10 at station 8 heading to 9
+New train: Train 3 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 2 in 2 minutes; currently 4 passengers on board
+Train 2 capacity of 20 arriving at station 1 in 1 minutes; currently 1 passengers on board
+	Train 3 is at station 0; unloaded 0; loaded 2 passengers; Space left 18
+Train 3 capacity of 20 arriving at station 1 in 6 minutes; currently 2 passengers on board
+-----At time marker 10 -> passengers waiting: 46	 on trains: 7	 active trains: 3-----
+
+Passenger arrived at time marker 11 at station 1 heading to 8
+Passenger arrived at time marker 11 at station 5 heading to 6
+Passenger arrived at time marker 11 at station 1 heading to 5
+Passenger arrived at time marker 11 at station 4 heading to 8
+Passenger arrived at time marker 11 at station 6 heading to 9
+Passenger arrived at time marker 11 at station 5 heading to 8
+Passenger arrived at time marker 11 at station 7 heading to 9
+Passenger arrived at time marker 11 at station 6 heading to 7
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 2 in 1 minutes; currently 4 passengers on board
+	Train 2 is at station 1; unloaded 0; loaded 6 passengers; Space left 13
+Train 2 capacity of 20 arriving at station 2 in 6 minutes; currently 7 passengers on board
+Train 3 capacity of 20 arriving at station 1 in 5 minutes; currently 2 passengers on board
+-----At time marker 11 -> passengers waiting: 48	 on trains: 13	 active trains: 3-----
+
+Passenger arrived at time marker 12 at station 1 heading to 4
+Passenger arrived at time marker 12 at station 1 heading to 9
+Passenger arrived at time marker 12 at station 3 heading to 7
+
+>> Moving each train <<
+	Train 1 is at station 2; unloaded 0; loaded 6 passengers; Space left 10
+Train 1 capacity of 20 arriving at station 3 in 5 minutes; currently 10 passengers on board
+Train 2 capacity of 20 arriving at station 2 in 5 minutes; currently 7 passengers on board
+Train 3 capacity of 20 arriving at station 1 in 4 minutes; currently 2 passengers on board
+-----At time marker 12 -> passengers waiting: 45	 on trains: 19	 active trains: 3-----
+
+Passenger arrived at time marker 13 at station 6 heading to 7
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 3 in 4 minutes; currently 10 passengers on board
+Train 2 capacity of 20 arriving at station 2 in 4 minutes; currently 7 passengers on board
+Train 3 capacity of 20 arriving at station 1 in 3 minutes; currently 2 passengers on board
+-----At time marker 13 -> passengers waiting: 46	 on trains: 19	 active trains: 3-----
+
+Passenger arrived at time marker 14 at station 3 heading to 9
+Passenger arrived at time marker 14 at station 8 heading to 9
+Passenger arrived at time marker 14 at station 0 heading to 3
+Passenger arrived at time marker 14 at station 4 heading to 9
+Passenger arrived at time marker 14 at station 5 heading to 8
+Passenger arrived at time marker 14 at station 5 heading to 7
+Passenger arrived at time marker 14 at station 5 heading to 9
+Passenger arrived at time marker 14 at station 4 heading to 6
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 3 in 3 minutes; currently 10 passengers on board
+Train 2 capacity of 20 arriving at station 2 in 3 minutes; currently 7 passengers on board
+Train 3 capacity of 20 arriving at station 1 in 2 minutes; currently 2 passengers on board
+-----At time marker 14 -> passengers waiting: 54	 on trains: 19	 active trains: 3-----
+
+Passenger arrived at time marker 15 at station 6 heading to 7
+Passenger arrived at time marker 15 at station 6 heading to 9
+Passenger arrived at time marker 15 at station 3 heading to 5
+Passenger arrived at time marker 15 at station 1 heading to 7
+New train: Train 4 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 3 in 2 minutes; currently 10 passengers on board
+Train 2 capacity of 20 arriving at station 2 in 2 minutes; currently 7 passengers on board
+Train 3 capacity of 20 arriving at station 1 in 1 minutes; currently 2 passengers on board
+	Train 4 is at station 0; unloaded 0; loaded 1 passengers; Space left 19
+Train 4 capacity of 20 arriving at station 1 in 6 minutes; currently 1 passengers on board
+-----At time marker 15 -> passengers waiting: 57	 on trains: 20	 active trains: 4-----
+
+Passenger arrived at time marker 16 at station 2 heading to 7
+Passenger arrived at time marker 16 at station 2 heading to 7
+Passenger arrived at time marker 16 at station 6 heading to 9
+Passenger arrived at time marker 16 at station 2 heading to 7
+Passenger arrived at time marker 16 at station 4 heading to 5
+Passenger arrived at time marker 16 at station 6 heading to 9
+Passenger arrived at time marker 16 at station 5 heading to 8
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 3 in 1 minutes; currently 10 passengers on board
+Train 2 capacity of 20 arriving at station 2 in 1 minutes; currently 7 passengers on board
+	Train 3 is at station 1; unloaded 2; loaded 3 passengers; Space left 17
+Train 3 capacity of 20 arriving at station 2 in 6 minutes; currently 3 passengers on board
+Train 4 capacity of 20 arriving at station 1 in 5 minutes; currently 1 passengers on board
+-----At time marker 16 -> passengers waiting: 61	 on trains: 21	 active trains: 4-----
+
+Passenger arrived at time marker 17 at station 0 heading to 5
+Passenger arrived at time marker 17 at station 8 heading to 9
+Passenger arrived at time marker 17 at station 3 heading to 4
+Passenger arrived at time marker 17 at station 8 heading to 9
+Passenger arrived at time marker 17 at station 2 heading to 8
+Passenger arrived at time marker 17 at station 3 heading to 9
+Passenger arrived at time marker 17 at station 4 heading to 9
+Passenger arrived at time marker 17 at station 4 heading to 7
+Passenger arrived at time marker 17 at station 6 heading to 7
+Passenger arrived at time marker 17 at station 7 heading to 9
+
+>> Moving each train <<
+	Train 1 is at station 3; unloaded 0; loaded 8 passengers; Space left 2
+Train 1 capacity of 20 arriving at station 4 in 7 minutes; currently 18 passengers on board
+	Train 2 is at station 2; unloaded 0; loaded 4 passengers; Space left 9
+Train 2 capacity of 20 arriving at station 3 in 5 minutes; currently 11 passengers on board
+Train 3 capacity of 20 arriving at station 2 in 5 minutes; currently 3 passengers on board
+Train 4 capacity of 20 arriving at station 1 in 4 minutes; currently 1 passengers on board
+-----At time marker 17 -> passengers waiting: 59	 on trains: 33	 active trains: 4-----
+
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 4 in 6 minutes; currently 18 passengers on board
+Train 2 capacity of 20 arriving at station 3 in 4 minutes; currently 11 passengers on board
+Train 3 capacity of 20 arriving at station 2 in 4 minutes; currently 3 passengers on board
+Train 4 capacity of 20 arriving at station 1 in 3 minutes; currently 1 passengers on board
+-----At time marker 18 -> passengers waiting: 59	 on trains: 33	 active trains: 4-----
+
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 4 in 5 minutes; currently 18 passengers on board
+Train 2 capacity of 20 arriving at station 3 in 3 minutes; currently 11 passengers on board
+Train 3 capacity of 20 arriving at station 2 in 3 minutes; currently 3 passengers on board
+Train 4 capacity of 20 arriving at station 1 in 2 minutes; currently 1 passengers on board
+-----At time marker 19 -> passengers waiting: 59	 on trains: 33	 active trains: 4-----
+
+Passenger arrived at time marker 20 at station 2 heading to 9
+Passenger arrived at time marker 20 at station 5 heading to 8
+Passenger arrived at time marker 20 at station 6 heading to 8
+Passenger arrived at time marker 20 at station 3 heading to 7
+New train: Train 5 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 4 in 4 minutes; currently 18 passengers on board
+Train 2 capacity of 20 arriving at station 3 in 2 minutes; currently 11 passengers on board
+Train 3 capacity of 20 arriving at station 2 in 2 minutes; currently 3 passengers on board
+Train 4 capacity of 20 arriving at station 1 in 1 minutes; currently 1 passengers on board
+	Train 5 is at station 0; unloaded 0; loaded 1 passengers; Space left 19
+Train 5 capacity of 20 arriving at station 1 in 6 minutes; currently 1 passengers on board
+-----At time marker 20 -> passengers waiting: 62	 on trains: 34	 active trains: 5-----
+
+Passenger arrived at time marker 21 at station 3 heading to 5
+Passenger arrived at time marker 21 at station 3 heading to 7
+Passenger arrived at time marker 21 at station 0 heading to 3
+Passenger arrived at time marker 21 at station 1 heading to 8
+Passenger arrived at time marker 21 at station 5 heading to 9
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 4 in 3 minutes; currently 18 passengers on board
+Train 2 capacity of 20 arriving at station 3 in 1 minutes; currently 11 passengers on board
+Train 3 capacity of 20 arriving at station 2 in 1 minutes; currently 3 passengers on board
+	Train 4 is at station 1; unloaded 0; loaded 1 passengers; Space left 18
+Train 4 capacity of 20 arriving at station 2 in 6 minutes; currently 2 passengers on board
+Train 5 capacity of 20 arriving at station 1 in 5 minutes; currently 1 passengers on board
+-----At time marker 21 -> passengers waiting: 66	 on trains: 35	 active trains: 5-----
+
+Passenger arrived at time marker 22 at station 7 heading to 8
+Passenger arrived at time marker 22 at station 2 heading to 8
+Passenger arrived at time marker 22 at station 3 heading to 9
+Passenger arrived at time marker 22 at station 1 heading to 9
+Passenger arrived at time marker 22 at station 0 heading to 7
+Passenger arrived at time marker 22 at station 4 heading to 8
+Passenger arrived at time marker 22 at station 2 heading to 3
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 4 in 2 minutes; currently 18 passengers on board
+	Train 2 is at station 3; unloaded 1; loaded 4 passengers; Space left 6
+Train 2 capacity of 20 arriving at station 4 in 7 minutes; currently 14 passengers on board
+	Train 3 is at station 2; unloaded 0; loaded 3 passengers; Space left 14
+Train 3 capacity of 20 arriving at station 3 in 5 minutes; currently 6 passengers on board
+Train 4 capacity of 20 arriving at station 2 in 5 minutes; currently 2 passengers on board
+Train 5 capacity of 20 arriving at station 1 in 4 minutes; currently 1 passengers on board
+-----At time marker 22 -> passengers waiting: 66	 on trains: 41	 active trains: 5-----
+
+Passenger arrived at time marker 23 at station 6 heading to 8
+Passenger arrived at time marker 23 at station 2 heading to 6
+Passenger arrived at time marker 23 at station 6 heading to 8
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 4 in 1 minutes; currently 18 passengers on board
+Train 2 capacity of 20 arriving at station 4 in 6 minutes; currently 14 passengers on board
+Train 3 capacity of 20 arriving at station 3 in 4 minutes; currently 6 passengers on board
+Train 4 capacity of 20 arriving at station 2 in 4 minutes; currently 2 passengers on board
+Train 5 capacity of 20 arriving at station 1 in 3 minutes; currently 1 passengers on board
+-----At time marker 23 -> passengers waiting: 69	 on trains: 41	 active trains: 5-----
+
+Passenger arrived at time marker 24 at station 4 heading to 5
+
+>> Moving each train <<
+	Train 1 is at station 4; unloaded 5; loaded 7 passengers; Space left 0
+Train 1 capacity of 20 arriving at station 5 in 5 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 4 in 5 minutes; currently 14 passengers on board
+Train 3 capacity of 20 arriving at station 3 in 3 minutes; currently 6 passengers on board
+Train 4 capacity of 20 arriving at station 2 in 3 minutes; currently 2 passengers on board
+Train 5 capacity of 20 arriving at station 1 in 2 minutes; currently 1 passengers on board
+-----At time marker 24 -> passengers waiting: 63	 on trains: 43	 active trains: 5-----
+
+Passenger arrived at time marker 25 at station 1 heading to 5
+Passenger arrived at time marker 25 at station 3 heading to 7
+Passenger arrived at time marker 25 at station 3 heading to 4
+New train: Train 6 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 5 in 4 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 4 in 4 minutes; currently 14 passengers on board
+Train 3 capacity of 20 arriving at station 3 in 2 minutes; currently 6 passengers on board
+Train 4 capacity of 20 arriving at station 2 in 2 minutes; currently 2 passengers on board
+Train 5 capacity of 20 arriving at station 1 in 1 minutes; currently 1 passengers on board
+	Train 6 is at station 0; unloaded 0; loaded 2 passengers; Space left 18
+Train 6 capacity of 20 arriving at station 1 in 6 minutes; currently 2 passengers on board
+-----At time marker 25 -> passengers waiting: 64	 on trains: 45	 active trains: 6-----
+
+Passenger arrived at time marker 26 at station 8 heading to 9
+Passenger arrived at time marker 26 at station 5 heading to 7
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 5 in 3 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 4 in 3 minutes; currently 14 passengers on board
+Train 3 capacity of 20 arriving at station 3 in 1 minutes; currently 6 passengers on board
+Train 4 capacity of 20 arriving at station 2 in 1 minutes; currently 2 passengers on board
+	Train 5 is at station 1; unloaded 0; loaded 2 passengers; Space left 17
+Train 5 capacity of 20 arriving at station 2 in 6 minutes; currently 3 passengers on board
+Train 6 capacity of 20 arriving at station 1 in 5 minutes; currently 2 passengers on board
+-----At time marker 26 -> passengers waiting: 64	 on trains: 47	 active trains: 6-----
+
+Passenger arrived at time marker 27 at station 7 heading to 8
+Passenger arrived at time marker 27 at station 3 heading to 6
+Passenger arrived at time marker 27 at station 0 heading to 4
+Passenger arrived at time marker 27 at station 2 heading to 8
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 5 in 2 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 4 in 2 minutes; currently 14 passengers on board
+	Train 3 is at station 3; unloaded 1; loaded 3 passengers; Space left 12
+Train 3 capacity of 20 arriving at station 4 in 7 minutes; currently 8 passengers on board
+	Train 4 is at station 2; unloaded 0; loaded 2 passengers; Space left 16
+Train 4 capacity of 20 arriving at station 3 in 5 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 2 in 5 minutes; currently 3 passengers on board
+Train 6 capacity of 20 arriving at station 1 in 4 minutes; currently 2 passengers on board
+-----At time marker 27 -> passengers waiting: 63	 on trains: 51	 active trains: 6-----
+
+Passenger arrived at time marker 28 at station 6 heading to 7
+Passenger arrived at time marker 28 at station 5 heading to 8
+Passenger arrived at time marker 28 at station 0 heading to 1
+Passenger arrived at time marker 28 at station 2 heading to 4
+Passenger arrived at time marker 28 at station 4 heading to 6
+Passenger arrived at time marker 28 at station 5 heading to 6
+Passenger arrived at time marker 28 at station 1 heading to 8
+Passenger arrived at time marker 28 at station 1 heading to 5
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 5 in 1 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 4 in 1 minutes; currently 14 passengers on board
+Train 3 capacity of 20 arriving at station 4 in 6 minutes; currently 8 passengers on board
+Train 4 capacity of 20 arriving at station 3 in 4 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 2 in 4 minutes; currently 3 passengers on board
+Train 6 capacity of 20 arriving at station 1 in 3 minutes; currently 2 passengers on board
+-----At time marker 28 -> passengers waiting: 71	 on trains: 51	 active trains: 6-----
+
+Passenger arrived at time marker 29 at station 8 heading to 9
+Passenger arrived at time marker 29 at station 7 heading to 9
+Passenger arrived at time marker 29 at station 6 heading to 9
+Passenger arrived at time marker 29 at station 1 heading to 5
+Passenger arrived at time marker 29 at station 5 heading to 7
+Passenger arrived at time marker 29 at station 0 heading to 4
+Passenger arrived at time marker 29 at station 4 heading to 7
+Passenger arrived at time marker 29 at station 6 heading to 9
+Passenger arrived at time marker 29 at station 7 heading to 9
+Passenger arrived at time marker 29 at station 6 heading to 9
+
+>> Moving each train <<
+	Train 1 is at station 5; unloaded 4; loaded 4 passengers; Space left 0
+Train 1 capacity of 20 arriving at station 6 in 8 minutes; currently 20 passengers on board
+	Train 2 is at station 4; unloaded 1; loaded 7 passengers; Space left 0
+Train 2 capacity of 20 arriving at station 5 in 5 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 4 in 5 minutes; currently 8 passengers on board
+Train 4 capacity of 20 arriving at station 3 in 3 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 2 in 3 minutes; currently 3 passengers on board
+Train 6 capacity of 20 arriving at station 1 in 2 minutes; currently 2 passengers on board
+-----At time marker 29 -> passengers waiting: 70	 on trains: 57	 active trains: 6-----
+
+Passenger arrived at time marker 30 at station 8 heading to 9
+Passenger arrived at time marker 30 at station 4 heading to 8
+Passenger arrived at time marker 30 at station 3 heading to 9
+Passenger arrived at time marker 30 at station 8 heading to 9
+Passenger arrived at time marker 30 at station 7 heading to 9
+Passenger arrived at time marker 30 at station 6 heading to 8
+Passenger arrived at time marker 30 at station 0 heading to 1
+New train: Train 7 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 6 in 7 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 5 in 4 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 4 in 4 minutes; currently 8 passengers on board
+Train 4 capacity of 20 arriving at station 3 in 2 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 2 in 2 minutes; currently 3 passengers on board
+Train 6 capacity of 20 arriving at station 1 in 1 minutes; currently 2 passengers on board
+	Train 7 is at station 0; unloaded 0; loaded 4 passengers; Space left 16
+Train 7 capacity of 20 arriving at station 1 in 6 minutes; currently 4 passengers on board
+-----At time marker 30 -> passengers waiting: 73	 on trains: 61	 active trains: 7-----
+
+Passenger arrived at time marker 31 at station 6 heading to 7
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 6 in 6 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 5 in 3 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 4 in 3 minutes; currently 8 passengers on board
+Train 4 capacity of 20 arriving at station 3 in 1 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 2 in 1 minutes; currently 3 passengers on board
+	Train 6 is at station 1; unloaded 0; loaded 3 passengers; Space left 15
+Train 6 capacity of 20 arriving at station 2 in 6 minutes; currently 5 passengers on board
+Train 7 capacity of 20 arriving at station 1 in 5 minutes; currently 4 passengers on board
+-----At time marker 31 -> passengers waiting: 71	 on trains: 64	 active trains: 7-----
+
+Passenger arrived at time marker 32 at station 0 heading to 3
+Passenger arrived at time marker 32 at station 7 heading to 9
+Passenger arrived at time marker 32 at station 0 heading to 3
+Passenger arrived at time marker 32 at station 2 heading to 3
+Passenger arrived at time marker 32 at station 1 heading to 4
+Passenger arrived at time marker 32 at station 4 heading to 8
+Passenger arrived at time marker 32 at station 6 heading to 8
+Passenger arrived at time marker 32 at station 7 heading to 8
+Passenger arrived at time marker 32 at station 1 heading to 4
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 6 in 5 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 5 in 2 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 4 in 2 minutes; currently 8 passengers on board
+	Train 4 is at station 3; unloaded 1; loaded 1 passengers; Space left 16
+Train 4 capacity of 20 arriving at station 4 in 7 minutes; currently 4 passengers on board
+	Train 5 is at station 2; unloaded 0; loaded 2 passengers; Space left 15
+Train 5 capacity of 20 arriving at station 3 in 5 minutes; currently 5 passengers on board
+Train 6 capacity of 20 arriving at station 2 in 5 minutes; currently 5 passengers on board
+Train 7 capacity of 20 arriving at station 1 in 4 minutes; currently 4 passengers on board
+-----At time marker 32 -> passengers waiting: 77	 on trains: 66	 active trains: 7-----
+
+Passenger arrived at time marker 33 at station 7 heading to 9
+Passenger arrived at time marker 33 at station 5 heading to 6
+Passenger arrived at time marker 33 at station 3 heading to 4
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 6 in 4 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 5 in 1 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 4 in 1 minutes; currently 8 passengers on board
+Train 4 capacity of 20 arriving at station 4 in 6 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 3 in 4 minutes; currently 5 passengers on board
+Train 6 capacity of 20 arriving at station 2 in 4 minutes; currently 5 passengers on board
+Train 7 capacity of 20 arriving at station 1 in 3 minutes; currently 4 passengers on board
+-----At time marker 33 -> passengers waiting: 80	 on trains: 66	 active trains: 7-----
+
+Passenger arrived at time marker 34 at station 4 heading to 5
+Passenger arrived at time marker 34 at station 4 heading to 8
+Passenger arrived at time marker 34 at station 2 heading to 5
+Passenger arrived at time marker 34 at station 7 heading to 9
+Passenger arrived at time marker 34 at station 8 heading to 9
+Passenger arrived at time marker 34 at station 8 heading to 9
+Passenger arrived at time marker 34 at station 8 heading to 9
+Passenger arrived at time marker 34 at station 3 heading to 4
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 6 in 3 minutes; currently 20 passengers on board
+	Train 2 is at station 5; unloaded 6; loaded 6 passengers; Space left 0
+Train 2 capacity of 20 arriving at station 6 in 8 minutes; currently 20 passengers on board
+	Train 3 is at station 4; unloaded 2; loaded 4 passengers; Space left 10
+Train 3 capacity of 20 arriving at station 5 in 5 minutes; currently 10 passengers on board
+Train 4 capacity of 20 arriving at station 4 in 5 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 3 in 3 minutes; currently 5 passengers on board
+Train 6 capacity of 20 arriving at station 2 in 3 minutes; currently 5 passengers on board
+Train 7 capacity of 20 arriving at station 1 in 2 minutes; currently 4 passengers on board
+-----At time marker 34 -> passengers waiting: 78	 on trains: 68	 active trains: 7-----
+
+Passenger arrived at time marker 35 at station 8 heading to 9
+Passenger arrived at time marker 35 at station 1 heading to 2
+Passenger arrived at time marker 35 at station 7 heading to 8
+Passenger arrived at time marker 35 at station 5 heading to 9
+Passenger arrived at time marker 35 at station 6 heading to 7
+New train: Train 8 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 6 in 2 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 6 in 7 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 5 in 4 minutes; currently 10 passengers on board
+Train 4 capacity of 20 arriving at station 4 in 4 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 3 in 2 minutes; currently 5 passengers on board
+Train 6 capacity of 20 arriving at station 2 in 2 minutes; currently 5 passengers on board
+Train 7 capacity of 20 arriving at station 1 in 1 minutes; currently 4 passengers on board
+	Train 8 is at station 0; unloaded 0; loaded 2 passengers; Space left 18
+Train 8 capacity of 20 arriving at station 1 in 6 minutes; currently 2 passengers on board
+-----At time marker 35 -> passengers waiting: 81	 on trains: 70	 active trains: 8-----
+
+Passenger arrived at time marker 36 at station 4 heading to 8
+Passenger arrived at time marker 36 at station 2 heading to 6
+Passenger arrived at time marker 36 at station 0 heading to 4
+Passenger arrived at time marker 36 at station 6 heading to 7
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 6 in 1 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 6 in 6 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 5 in 3 minutes; currently 10 passengers on board
+Train 4 capacity of 20 arriving at station 4 in 3 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 3 in 1 minutes; currently 5 passengers on board
+Train 6 capacity of 20 arriving at station 2 in 1 minutes; currently 5 passengers on board
+	Train 7 is at station 1; unloaded 2; loaded 3 passengers; Space left 15
+Train 7 capacity of 20 arriving at station 2 in 6 minutes; currently 5 passengers on board
+Train 8 capacity of 20 arriving at station 1 in 5 minutes; currently 2 passengers on board
+-----At time marker 36 -> passengers waiting: 82	 on trains: 71	 active trains: 8-----
+
+Passenger arrived at time marker 37 at station 0 heading to 7
+Passenger arrived at time marker 37 at station 6 heading to 8
+Passenger arrived at time marker 37 at station 1 heading to 3
+Passenger arrived at time marker 37 at station 7 heading to 9
+Passenger arrived at time marker 37 at station 0 heading to 4
+Passenger arrived at time marker 37 at station 3 heading to 8
+Passenger arrived at time marker 37 at station 5 heading to 6
+Passenger arrived at time marker 37 at station 0 heading to 7
+Passenger arrived at time marker 37 at station 2 heading to 7
+Passenger arrived at time marker 37 at station 5 heading to 8
+
+>> Moving each train <<
+	Train 1 is at station 6; unloaded 4; loaded 4 passengers; Space left 0
+Train 1 capacity of 20 arriving at station 7 in 9 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 6 in 5 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 5 in 2 minutes; currently 10 passengers on board
+Train 4 capacity of 20 arriving at station 4 in 2 minutes; currently 4 passengers on board
+	Train 5 is at station 3; unloaded 1; loaded 3 passengers; Space left 13
+Train 5 capacity of 20 arriving at station 4 in 7 minutes; currently 7 passengers on board
+	Train 6 is at station 2; unloaded 0; loaded 3 passengers; Space left 12
+Train 6 capacity of 20 arriving at station 3 in 5 minutes; currently 8 passengers on board
+Train 7 capacity of 20 arriving at station 2 in 5 minutes; currently 5 passengers on board
+Train 8 capacity of 20 arriving at station 1 in 4 minutes; currently 2 passengers on board
+-----At time marker 37 -> passengers waiting: 82	 on trains: 76	 active trains: 8-----
+
+Passenger arrived at time marker 38 at station 2 heading to 3
+Passenger arrived at time marker 38 at station 3 heading to 8
+Passenger arrived at time marker 38 at station 3 heading to 7
+Passenger arrived at time marker 38 at station 6 heading to 8
+Passenger arrived at time marker 38 at station 8 heading to 9
+Passenger arrived at time marker 38 at station 1 heading to 9
+Passenger arrived at time marker 38 at station 8 heading to 9
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 8 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 6 in 4 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 5 in 1 minutes; currently 10 passengers on board
+Train 4 capacity of 20 arriving at station 4 in 1 minutes; currently 4 passengers on board
+Train 5 capacity of 20 arriving at station 4 in 6 minutes; currently 7 passengers on board
+Train 6 capacity of 20 arriving at station 3 in 4 minutes; currently 8 passengers on board
+Train 7 capacity of 20 arriving at station 2 in 4 minutes; currently 5 passengers on board
+Train 8 capacity of 20 arriving at station 1 in 3 minutes; currently 2 passengers on board
+-----At time marker 38 -> passengers waiting: 89	 on trains: 76	 active trains: 8-----
+
+Passenger arrived at time marker 39 at station 8 heading to 9
+Passenger arrived at time marker 39 at station 6 heading to 8
+Passenger arrived at time marker 39 at station 4 heading to 8
+Passenger arrived at time marker 39 at station 4 heading to 8
+Passenger arrived at time marker 39 at station 0 heading to 7
+Passenger arrived at time marker 39 at station 4 heading to 5
+Passenger arrived at time marker 39 at station 1 heading to 6
+Passenger arrived at time marker 39 at station 7 heading to 8
+Passenger arrived at time marker 39 at station 8 heading to 9
+Passenger arrived at time marker 39 at station 4 heading to 7
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 7 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 6 in 3 minutes; currently 20 passengers on board
+	Train 3 is at station 5; unloaded 1; loaded 11 passengers; Space left 0
+Train 3 capacity of 20 arriving at station 6 in 8 minutes; currently 20 passengers on board
+	Train 4 is at station 4; unloaded 0; loaded 5 passengers; Space left 11
+Train 4 capacity of 20 arriving at station 5 in 5 minutes; currently 9 passengers on board
+Train 5 capacity of 20 arriving at station 4 in 5 minutes; currently 7 passengers on board
+Train 6 capacity of 20 arriving at station 3 in 3 minutes; currently 8 passengers on board
+Train 7 capacity of 20 arriving at station 2 in 3 minutes; currently 5 passengers on board
+Train 8 capacity of 20 arriving at station 1 in 2 minutes; currently 2 passengers on board
+-----At time marker 39 -> passengers waiting: 83	 on trains: 91	 active trains: 8-----
+
+Passenger arrived at time marker 40 at station 0 heading to 5
+Passenger arrived at time marker 40 at station 6 heading to 9
+Passenger arrived at time marker 40 at station 4 heading to 9
+Passenger arrived at time marker 40 at station 5 heading to 6
+Passenger arrived at time marker 40 at station 8 heading to 9
+Passenger arrived at time marker 40 at station 5 heading to 9
+New train: Train 9 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 6 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 6 in 2 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 6 in 7 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 5 in 4 minutes; currently 9 passengers on board
+Train 5 capacity of 20 arriving at station 4 in 4 minutes; currently 7 passengers on board
+Train 6 capacity of 20 arriving at station 3 in 2 minutes; currently 8 passengers on board
+Train 7 capacity of 20 arriving at station 2 in 2 minutes; currently 5 passengers on board
+Train 8 capacity of 20 arriving at station 1 in 1 minutes; currently 2 passengers on board
+	Train 9 is at station 0; unloaded 0; loaded 6 passengers; Space left 14
+Train 9 capacity of 20 arriving at station 1 in 6 minutes; currently 6 passengers on board
+-----At time marker 40 -> passengers waiting: 83	 on trains: 97	 active trains: 9-----
+
+Passenger arrived at time marker 41 at station 0 heading to 9
+Passenger arrived at time marker 41 at station 7 heading to 8
+Passenger arrived at time marker 41 at station 3 heading to 7
+Passenger arrived at time marker 41 at station 5 heading to 8
+Passenger arrived at time marker 41 at station 6 heading to 7
+Passenger arrived at time marker 41 at station 1 heading to 2
+Passenger arrived at time marker 41 at station 5 heading to 6
+Passenger arrived at time marker 41 at station 3 heading to 5
+Passenger arrived at time marker 41 at station 6 heading to 9
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 5 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 6 in 1 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 6 in 6 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 5 in 3 minutes; currently 9 passengers on board
+Train 5 capacity of 20 arriving at station 4 in 3 minutes; currently 7 passengers on board
+Train 6 capacity of 20 arriving at station 3 in 1 minutes; currently 8 passengers on board
+Train 7 capacity of 20 arriving at station 2 in 1 minutes; currently 5 passengers on board
+	Train 8 is at station 1; unloaded 0; loaded 4 passengers; Space left 14
+Train 8 capacity of 20 arriving at station 2 in 6 minutes; currently 6 passengers on board
+Train 9 capacity of 20 arriving at station 1 in 5 minutes; currently 6 passengers on board
+-----At time marker 41 -> passengers waiting: 88	 on trains: 101	 active trains: 9-----
+
+Passenger arrived at time marker 42 at station 1 heading to 5
+Passenger arrived at time marker 42 at station 0 heading to 8
+Passenger arrived at time marker 42 at station 0 heading to 2
+Passenger arrived at time marker 42 at station 4 heading to 8
+Passenger arrived at time marker 42 at station 6 heading to 7
+Passenger arrived at time marker 42 at station 8 heading to 9
+Passenger arrived at time marker 42 at station 8 heading to 9
+Passenger arrived at time marker 42 at station 2 heading to 9
+Passenger arrived at time marker 42 at station 8 heading to 9
+Passenger arrived at time marker 42 at station 1 heading to 9
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 4 minutes; currently 20 passengers on board
+	Train 2 is at station 6; unloaded 3; loaded 3 passengers; Space left 0
+Train 2 capacity of 20 arriving at station 7 in 9 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 6 in 5 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 5 in 2 minutes; currently 9 passengers on board
+Train 5 capacity of 20 arriving at station 4 in 2 minutes; currently 7 passengers on board
+	Train 6 is at station 3; unloaded 1; loaded 4 passengers; Space left 9
+Train 6 capacity of 20 arriving at station 4 in 7 minutes; currently 11 passengers on board
+	Train 7 is at station 2; unloaded 1; loaded 2 passengers; Space left 14
+Train 7 capacity of 20 arriving at station 3 in 5 minutes; currently 6 passengers on board
+Train 8 capacity of 20 arriving at station 2 in 5 minutes; currently 6 passengers on board
+Train 9 capacity of 20 arriving at station 1 in 4 minutes; currently 6 passengers on board
+-----At time marker 42 -> passengers waiting: 89	 on trains: 105	 active trains: 9-----
+
+Passenger arrived at time marker 43 at station 3 heading to 5
+Passenger arrived at time marker 43 at station 5 heading to 7
+Passenger arrived at time marker 43 at station 6 heading to 9
+Passenger arrived at time marker 43 at station 4 heading to 7
+Passenger arrived at time marker 43 at station 7 heading to 8
+Passenger arrived at time marker 43 at station 2 heading to 8
+Passenger arrived at time marker 43 at station 1 heading to 4
+Passenger arrived at time marker 43 at station 4 heading to 9
+Passenger arrived at time marker 43 at station 2 heading to 9
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 3 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 7 in 8 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 6 in 4 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 5 in 1 minutes; currently 9 passengers on board
+Train 5 capacity of 20 arriving at station 4 in 1 minutes; currently 7 passengers on board
+Train 6 capacity of 20 arriving at station 4 in 6 minutes; currently 11 passengers on board
+Train 7 capacity of 20 arriving at station 3 in 4 minutes; currently 6 passengers on board
+Train 8 capacity of 20 arriving at station 2 in 4 minutes; currently 6 passengers on board
+Train 9 capacity of 20 arriving at station 1 in 3 minutes; currently 6 passengers on board
+-----At time marker 43 -> passengers waiting: 98	 on trains: 105	 active trains: 9-----
+
+Passenger arrived at time marker 44 at station 8 heading to 9
+Passenger arrived at time marker 44 at station 2 heading to 9
+Passenger arrived at time marker 44 at station 4 heading to 5
+Passenger arrived at time marker 44 at station 7 heading to 8
+Passenger arrived at time marker 44 at station 5 heading to 9
+Passenger arrived at time marker 44 at station 4 heading to 8
+Passenger arrived at time marker 44 at station 2 heading to 5
+Passenger arrived at time marker 44 at station 6 heading to 7
+Passenger arrived at time marker 44 at station 3 heading to 8
+Passenger arrived at time marker 44 at station 4 heading to 6
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 2 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 7 in 7 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 6 in 3 minutes; currently 20 passengers on board
+	Train 4 is at station 5; unloaded 1; loaded 8 passengers; Space left 4
+Train 4 capacity of 20 arriving at station 6 in 8 minutes; currently 16 passengers on board
+	Train 5 is at station 4; unloaded 3; loaded 7 passengers; Space left 9
+Train 5 capacity of 20 arriving at station 5 in 5 minutes; currently 11 passengers on board
+Train 6 capacity of 20 arriving at station 4 in 5 minutes; currently 11 passengers on board
+Train 7 capacity of 20 arriving at station 3 in 3 minutes; currently 6 passengers on board
+Train 8 capacity of 20 arriving at station 2 in 3 minutes; currently 6 passengers on board
+Train 9 capacity of 20 arriving at station 1 in 2 minutes; currently 6 passengers on board
+-----At time marker 44 -> passengers waiting: 93	 on trains: 116	 active trains: 9-----
+
+Passenger arrived at time marker 45 at station 6 heading to 7
+Passenger arrived at time marker 45 at station 4 heading to 9
+Passenger arrived at time marker 45 at station 6 heading to 9
+Passenger arrived at time marker 45 at station 6 heading to 7
+Passenger arrived at time marker 45 at station 8 heading to 9
+New train: Train 10 capacity of 20 arriving at station 0 in 1 minutes; currently 0 passengers on board
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 7 in 1 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 7 in 6 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 6 in 2 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 6 in 7 minutes; currently 16 passengers on board
+Train 5 capacity of 20 arriving at station 5 in 4 minutes; currently 11 passengers on board
+Train 6 capacity of 20 arriving at station 4 in 4 minutes; currently 11 passengers on board
+Train 7 capacity of 20 arriving at station 3 in 2 minutes; currently 6 passengers on board
+Train 8 capacity of 20 arriving at station 2 in 2 minutes; currently 6 passengers on board
+Train 9 capacity of 20 arriving at station 1 in 1 minutes; currently 6 passengers on board
+	Train 10 is at station 0; unloaded 0; loaded 3 passengers; Space left 17
+Train 10 capacity of 20 arriving at station 1 in 6 minutes; currently 3 passengers on board
+-----At time marker 45 -> passengers waiting: 95	 on trains: 119	 active trains: 10-----
+
+Passenger arrived at time marker 46 at station 8 heading to 9
+
+>> Moving each train <<
+	Train 1 is at station 7; unloaded 5; loaded 5 passengers; Space left 0
+Train 1 capacity of 20 arriving at station 8 in 7 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 7 in 5 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 6 in 1 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 6 in 6 minutes; currently 16 passengers on board
+Train 5 capacity of 20 arriving at station 5 in 3 minutes; currently 11 passengers on board
+Train 6 capacity of 20 arriving at station 4 in 3 minutes; currently 11 passengers on board
+Train 7 capacity of 20 arriving at station 3 in 1 minutes; currently 6 passengers on board
+Train 8 capacity of 20 arriving at station 2 in 1 minutes; currently 6 passengers on board
+	Train 9 is at station 1; unloaded 0; loaded 3 passengers; Space left 11
+Train 9 capacity of 20 arriving at station 2 in 6 minutes; currently 9 passengers on board
+Train 10 capacity of 20 arriving at station 1 in 5 minutes; currently 3 passengers on board
+-----At time marker 46 -> passengers waiting: 88	 on trains: 122	 active trains: 10-----
+
+Passenger arrived at time marker 47 at station 8 heading to 9
+Passenger arrived at time marker 47 at station 8 heading to 9
+Passenger arrived at time marker 47 at station 1 heading to 2
+Passenger arrived at time marker 47 at station 1 heading to 7
+Passenger arrived at time marker 47 at station 5 heading to 7
+Passenger arrived at time marker 47 at station 5 heading to 7
+Passenger arrived at time marker 47 at station 7 heading to 8
+Passenger arrived at time marker 47 at station 5 heading to 6
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 8 in 6 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 7 in 4 minutes; currently 20 passengers on board
+	Train 3 is at station 6; unloaded 3; loaded 3 passengers; Space left 0
+Train 3 capacity of 20 arriving at station 7 in 9 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 6 in 5 minutes; currently 16 passengers on board
+Train 5 capacity of 20 arriving at station 5 in 2 minutes; currently 11 passengers on board
+Train 6 capacity of 20 arriving at station 4 in 2 minutes; currently 11 passengers on board
+	Train 7 is at station 3; unloaded 1; loaded 2 passengers; Space left 13
+Train 7 capacity of 20 arriving at station 4 in 7 minutes; currently 7 passengers on board
+	Train 8 is at station 2; unloaded 1; loaded 4 passengers; Space left 11
+Train 8 capacity of 20 arriving at station 3 in 5 minutes; currently 9 passengers on board
+Train 9 capacity of 20 arriving at station 2 in 5 minutes; currently 9 passengers on board
+Train 10 capacity of 20 arriving at station 1 in 4 minutes; currently 3 passengers on board
+-----At time marker 47 -> passengers waiting: 87	 on trains: 126	 active trains: 10-----
+
+Passenger arrived at time marker 48 at station 7 heading to 9
+Passenger arrived at time marker 48 at station 5 heading to 6
+Passenger arrived at time marker 48 at station 0 heading to 7
+Passenger arrived at time marker 48 at station 5 heading to 8
+Passenger arrived at time marker 48 at station 4 heading to 6
+Passenger arrived at time marker 48 at station 4 heading to 7
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 8 in 5 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 7 in 3 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 7 in 8 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 6 in 4 minutes; currently 16 passengers on board
+Train 5 capacity of 20 arriving at station 5 in 1 minutes; currently 11 passengers on board
+Train 6 capacity of 20 arriving at station 4 in 1 minutes; currently 11 passengers on board
+Train 7 capacity of 20 arriving at station 4 in 6 minutes; currently 7 passengers on board
+Train 8 capacity of 20 arriving at station 3 in 4 minutes; currently 9 passengers on board
+Train 9 capacity of 20 arriving at station 2 in 4 minutes; currently 9 passengers on board
+Train 10 capacity of 20 arriving at station 1 in 3 minutes; currently 3 passengers on board
+-----At time marker 48 -> passengers waiting: 93	 on trains: 126	 active trains: 10-----
+
+Passenger arrived at time marker 49 at station 6 heading to 7
+Passenger arrived at time marker 49 at station 1 heading to 9
+Passenger arrived at time marker 49 at station 2 heading to 9
+Passenger arrived at time marker 49 at station 3 heading to 8
+
+>> Moving each train <<
+Train 1 capacity of 20 arriving at station 8 in 4 minutes; currently 20 passengers on board
+Train 2 capacity of 20 arriving at station 7 in 2 minutes; currently 20 passengers on board
+Train 3 capacity of 20 arriving at station 7 in 7 minutes; currently 20 passengers on board
+Train 4 capacity of 20 arriving at station 6 in 3 minutes; currently 16 passengers on board
+	Train 5 is at station 5; unloaded 3; loaded 5 passengers; Space left 7
+Train 5 capacity of 20 arriving at station 6 in 8 minutes; currently 13 passengers on board
+	Train 6 is at station 4; unloaded 0; loaded 3 passengers; Space left 6
+Train 6 capacity of 20 arriving at station 5 in 5 minutes; currently 14 passengers on board
+Train 7 capacity of 20 arriving at station 4 in 5 minutes; currently 7 passengers on board
+Train 8 capacity of 20 arriving at station 3 in 3 minutes; currently 9 passengers on board
+Train 9 capacity of 20 arriving at station 2 in 3 minutes; currently 9 passengers on board
+Train 10 capacity of 20 arriving at station 1 in 2 minutes; currently 3 passengers on board
+-----At time marker 49 -> passengers waiting: 89	 on trains: 131	 active trains: 10-----
+
+*****************  Final Report  ***************
+The total number of passengers is 273
+The number of passengers currently on a train 131
+The number of passengers delivered is 53
+The number of passengers waiting is 89
+The average wait time for passengers that have boarded is 8.11
+
+Process finished with exit code 0

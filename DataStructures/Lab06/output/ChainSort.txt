@@ -1,0 +1,160 @@
+--------Run1--------
+
+What size chain should be used?
+   It should be an integer value greater than or equal to 1.
+7
+What seed value should be used?
+   It should be an integer value greater than or equal to 1.
+11
+
+Original Chain Content: 40 7 33 55 11 68 38 
+-----> Before partial sort with space 3:
+40 7 33 55 11 68 38 
+-> Comparing 55 with 40
+-> Comparing 11 with 7
+-> Comparing 68 with 33
+-> Comparing 38 with 55
+---> 38 is smaller than 55
+-> Comparing 38 with 40
+---> 38 is smaller than 40
+-----> After partial sort done with space 3:
+38 7 33 40 11 68 55 
+-----> Before partial sort with space 1:
+38 7 33 40 11 68 55 
+-> Comparing 7 with 38
+---> 7 is smaller than 38
+-> Comparing 33 with 38
+---> 33 is smaller than 38
+-> Comparing 33 with 7
+-> Comparing 40 with 38
+-> Comparing 11 with 40
+---> 11 is smaller than 40
+-> Comparing 11 with 38
+---> 11 is smaller than 38
+-> Comparing 11 with 33
+---> 11 is smaller than 33
+-> Comparing 11 with 7
+-> Comparing 68 with 40
+-> Comparing 55 with 68
+---> 55 is smaller than 68
+-> Comparing 55 with 40
+-----> After partial sort done with space 1:
+7 11 33 38 40 55 68 
+
+Sorted Chain Content: 7 11 33 38 40 55 68 
+
+Process finished with exit code 0
+
+
+--------Run2--------
+
+What size chain should be used?
+   It should be an integer value greater than or equal to 1.
+15
+What seed value should be used?
+   It should be an integer value greater than or equal to 1.
+101
+
+Original Chain Content: 18 6 99 12 14 6 82 33 79 65 30 54 93 90 40 
+-----> Before partial sort with space 7:
+18 6 99 12 14 6 82 33 79 65 30 54 93 90 40 
+-> Comparing 33 with 18
+-> Comparing 79 with 6
+-> Comparing 65 with 99
+---> 65 is smaller than 99
+-> Comparing 30 with 12
+-> Comparing 54 with 14
+-> Comparing 93 with 6
+-> Comparing 90 with 82
+-> Comparing 40 with 33
+-----> After partial sort done with space 7:
+18 6 65 12 14 6 82 33 79 99 30 54 93 90 40 
+-----> Before partial sort with space 3:
+18 6 65 12 14 6 82 33 79 99 30 54 93 90 40 
+-> Comparing 12 with 18
+---> 12 is smaller than 18
+-> Comparing 14 with 6
+-> Comparing 6 with 65
+---> 6 is smaller than 65
+-> Comparing 82 with 18
+-> Comparing 33 with 14
+-> Comparing 79 with 65
+-> Comparing 99 with 82
+-> Comparing 30 with 33
+---> 30 is smaller than 33
+-> Comparing 30 with 14
+-> Comparing 54 with 79
+---> 54 is smaller than 79
+-> Comparing 54 with 65
+---> 54 is smaller than 65
+-> Comparing 54 with 6
+-> Comparing 93 with 99
+---> 93 is smaller than 99
+-> Comparing 93 with 82
+-> Comparing 90 with 33
+-> Comparing 40 with 79
+---> 40 is smaller than 79
+-> Comparing 40 with 65
+---> 40 is smaller than 65
+-> Comparing 40 with 54
+---> 40 is smaller than 54
+-> Comparing 40 with 6
+-----> After partial sort done with space 3:
+12 6 6 18 14 40 82 30 54 93 33 65 99 90 79 
+-----> Before partial sort with space 1:
+12 6 6 18 14 40 82 30 54 93 33 65 99 90 79 
+-> Comparing 6 with 12
+---> 6 is smaller than 12
+-> Comparing 6 with 12
+---> 6 is smaller than 12
+-> Comparing 6 with 6
+-> Comparing 18 with 12
+-> Comparing 14 with 18
+---> 14 is smaller than 18
+-> Comparing 14 with 12
+-> Comparing 40 with 18
+-> Comparing 82 with 40
+-> Comparing 30 with 82
+---> 30 is smaller than 82
+-> Comparing 30 with 40
+---> 30 is smaller than 40
+-> Comparing 30 with 18
+-> Comparing 54 with 82
+---> 54 is smaller than 82
+-> Comparing 54 with 40
+-> Comparing 93 with 82
+-> Comparing 33 with 93
+---> 33 is smaller than 93
+-> Comparing 33 with 82
+---> 33 is smaller than 82
+-> Comparing 33 with 54
+---> 33 is smaller than 54
+-> Comparing 33 with 40
+---> 33 is smaller than 40
+-> Comparing 33 with 30
+-> Comparing 65 with 93
+---> 65 is smaller than 93
+-> Comparing 65 with 82
+---> 65 is smaller than 82
+-> Comparing 65 with 54
+-> Comparing 99 with 93
+-> Comparing 90 with 99
+---> 90 is smaller than 99
+-> Comparing 90 with 93
+---> 90 is smaller than 93
+-> Comparing 90 with 82
+-> Comparing 79 with 99
+---> 79 is smaller than 99
+-> Comparing 79 with 93
+---> 79 is smaller than 93
+-> Comparing 79 with 90
+---> 79 is smaller than 90
+-> Comparing 79 with 82
+---> 79 is smaller than 82
+-> Comparing 79 with 65
+-----> After partial sort done with space 1:
+6 6 12 14 18 30 33 40 54 65 79 82 90 93 99 
+
+Sorted Chain Content: 6 6 12 14 18 30 33 40 54 65 79 82 90 93 99 
+
+Process finished with exit code 0

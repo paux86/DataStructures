@@ -1,0 +1,116 @@
+--Run #1--
+
+How many numbers (no less than 10)?
+12
+Starting with: 
+28 48 31 85 43 67 80 93 43 27 84 64 
+	Removed: 28 48
+	Removed: 93 43
+	Removed: 84 64
+The list after pass #1
+31 85 43 67 80 27 
+No more pairs to remove.
+Shuffling the numbers.
+The list after shuffling #1
+27 31 85 43 80 67 
+No more pairs to remove.
+Shuffling the numbers.
+The list after shuffling #2
+27 80 85 67 43 31 
+	Removed: 80 85
+	Removed: 43 31
+The list after pass #2
+27 67 
+	Removed: 27 67
+The list after pass #3
+The list is empty.
+No more pairs to remove.
+
+*** Winner!!! ***
+
+Process finished with exit code 0
+
+
+--Run #2---
+
+How many numbers (no less than 10)?
+16
+Starting with: 
+28 48 31 85 43 67 80 93 43 27 84 64 67 69 32 98 
+	Removed: 28 48
+	Removed: 93 43
+	Removed: 84 64
+	Removed: 67 69
+The list after pass #1
+31 85 43 67 80 27 32 98 
+	Removed: 27 32
+The list after pass #2
+31 85 43 67 80 98 
+	Removed: 80 98
+The list after pass #3
+31 85 43 67 
+No more pairs to remove.
+Shuffling the numbers.
+The list after shuffling #1
+31 43 67 85 
+	Removed: 31 43
+The list after pass #4
+67 85 
+No more pairs to remove.
+
+*** Better luck next time! ***
+
+Process finished with exit code 0
+
+
+--Run #3--
+
+How many numbers (no less than 10)?
+50
+Starting with: 
+28 48 31 85 43 67 80 93 43 27 84 64 67 69 32 98 54 41 78 46 15 95 81 68 57 18 41 24 94 99 98 11 96 65 99 78 74 49 42 52 82 73 44 97 46 60 54 44 39 58 
+	Removed: 28 48
+	Removed: 93 43
+	Removed: 84 64
+	Removed: 67 69
+	Removed: 54 41
+	Removed: 15 95
+	Removed: 81 68
+	Removed: 18 41
+	Removed: 24 94
+	Removed: 99 98
+	Removed: 96 65
+	Removed: 78 74
+	Removed: 49 42
+	Removed: 52 82
+	Removed: 46 60
+	Removed: 54 44
+The list after pass #1
+31 85 43 67 80 27 32 98 78 46 57 11 99 73 44 97 39 58 
+	Removed: 27 32
+	Removed: 98 78
+	Removed: 97 39
+The list after pass #2
+31 85 43 67 80 46 57 11 99 73 44 58 
+No more pairs to remove.
+Shuffling the numbers.
+The list after shuffling #1
+43 58 57 99 85 11 80 67 46 44 31 73 
+	Removed: 58 57
+	Removed: 67 46
+	Removed: 31 73
+The list after pass #3
+43 99 85 11 80 44 
+No more pairs to remove.
+Shuffling the numbers.
+The list after shuffling #2
+99 85 80 44 43 11 
+	Removed: 85 80
+	Removed: 44 43
+The list after pass #4
+99 11 
+No more pairs to remove.
+
+*** Better luck next time! ***
+
+Process finished with exit code 0

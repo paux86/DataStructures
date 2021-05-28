@@ -1,0 +1,74 @@
+*** DECIMAL TO BINARY CONVERTER ***
+DECIMAL TO BINARY CONVERTER
+
+Please enter a positive integer, or type "stop"
+6
+6 in binary is --> 110
+
+Please enter a positive integer, or type "stop"
+12345
+12345 in binary is --> 11000000111001
+
+Please enter a positive integer, or type "stop"
+stop
+Done with conversion.
+
+*** ANCIENT MULTIPLIER ***
+Please enter operand1, or type "stop"
+12345
+Please enter operand2
+6789
+The smaller operand is: 6789; and the larger operand is: 12345
+--> Creating the mapping table:
+1 ->> 12345
+2 ->> 24690
+4 ->> 49380
+8 ->> 98760
+16 ->> 197520
+32 ->> 395040
+64 ->> 790080
+128 ->> 1580160
+256 ->> 3160320
+512 ->> 6320640
+1024 ->> 12641280
+2048 ->> 25282560
+4096 ->> 50565120
+
+--> Calculating the result
+12345 * 6789 is: 50565120 + 25282560 + 6320640 + 1580160 + 49380 + 12345 = 83810205
+
+Please enter operand1, or type "stop"
+4
+Please enter operand2
+5
+The smaller operand is: 4; and the larger operand is: 5
+--> Creating the mapping table:
+1 ->> 5
+2 ->> 10
+4 ->> 20
+
+--> Calculating the result
+5 * 4 is: 20 = 20
+
+Please enter operand1, or type "stop"
+stop
+Done multiplying
+*** ELIMINATING ADJACENT DUPLICATES ***
+--> testcase #1
+input = [1, 5, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [1] CORRECT
+
+---> testcase #2
+input = [1, 9, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [1, 9, 5] CORRECT
+
+---> testcase #3
+input = [1, 1, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [5] CORRECT
+
+---> testcase #4
+input = [1, 1, 1, 5, 6, 8, 8, 8, 0, 1, 1, 0, 6, 5]
+result = [] CORRECT
+Done!
+
+Process finished with exit code 0

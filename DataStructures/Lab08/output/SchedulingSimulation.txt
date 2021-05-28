@@ -1,0 +1,566 @@
+--Run #1--
+
+***STARTING THE SIMULATION WITH PRIORITY MODE SET TO SORT_BY_PRIORITY***
+Time marker 0	waiting: 0
+	executing: NONE
+	created: Job #1 priority(1) created at 0, time left 1
+Time marker 1	waiting: 0
+	executing: Job #1 priority(1) created at 0, time left 1
+	completed: Current job at time 1
+Time marker 2	waiting: 0
+	executing: NONE
+	created: Job #2 priority(3) created at 2, time left 4
+Time marker 3	waiting: 0
+	executing: Job #2 priority(3) created at 2, time left 4
+Time marker 4	waiting: 0
+	executing: Job #2 priority(3) created at 2, time left 3
+Time marker 5	waiting: 0
+	executing: Job #2 priority(3) created at 2, time left 2
+	created: Job #3 priority(1) created at 5, time left 3
+Time marker 6	waiting: 1
+	executing: Job #2 priority(3) created at 2, time left 1
+	completed: Current job at time 6
+Time marker 7	waiting: 0
+	executing: Job #3 priority(1) created at 5, time left 3
+	created: Job #4 priority(3) created at 7, time left 5
+Time marker 8	waiting: 1
+	executing: Job #3 priority(1) created at 5, time left 2
+Time marker 9	waiting: 1
+	executing: Job #3 priority(1) created at 5, time left 1
+	created: Job #5 priority(1) created at 9, time left 2
+	completed: Current job at time 9
+Time marker 10	waiting: 1
+	executing: Job #5 priority(1) created at 9, time left 2
+Time marker 11	waiting: 1
+	executing: Job #5 priority(1) created at 9, time left 1
+	completed: Current job at time 11
+Time marker 12	waiting: 0
+	executing: Job #4 priority(3) created at 7, time left 5
+	created: Job #6 priority(4) created at 12, time left 1
+Time marker 13	waiting: 1
+	executing: Job #4 priority(3) created at 7, time left 4
+Time marker 14	waiting: 1
+	executing: Job #4 priority(3) created at 7, time left 3
+Time marker 15	waiting: 1
+	executing: Job #4 priority(3) created at 7, time left 2
+Time marker 16	waiting: 1
+	executing: Job #4 priority(3) created at 7, time left 1
+	completed: Current job at time 16
+Time marker 17	waiting: 0
+	executing: Job #6 priority(4) created at 12, time left 1
+	completed: Current job at time 17
+Time marker 18	waiting: 0
+	executing: NONE
+	created: Job #7 priority(3) created at 18, time left 4
+Time marker 19	waiting: 0
+	executing: Job #7 priority(3) created at 18, time left 4
+Time marker 20	waiting: 0
+	executing: Job #7 priority(3) created at 18, time left 3
+	created: Job #8 priority(3) created at 20, time left 1
+Time marker 21	waiting: 1
+	executing: Job #7 priority(3) created at 18, time left 2
+Time marker 22	waiting: 1
+	executing: Job #7 priority(3) created at 18, time left 1
+	completed: Current job at time 22
+Time marker 23	waiting: 0
+	executing: Job #8 priority(3) created at 20, time left 1
+	completed: Current job at time 23
+Time marker 24	waiting: 0
+	executing: NONE
+	created: Job #9 priority(4) created at 24, time left 3
+Time marker 25	waiting: 0
+	executing: Job #9 priority(4) created at 24, time left 3
+Time marker 26	waiting: 0
+	executing: Job #9 priority(4) created at 24, time left 2
+Time marker 27	waiting: 0
+	executing: Job #9 priority(4) created at 24, time left 1
+	created: Job #10 priority(1) created at 27, time left 1
+	completed: Current job at time 27
+Time marker 28	waiting: 0
+	executing: Job #10 priority(1) created at 27, time left 1
+	completed: Current job at time 28
+Time marker 29	waiting: 0
+	executing: NONE
+Time marker 30	waiting: 0
+	executing: NONE
+Time marker 31	waiting: 0
+	executing: NONE
+Time marker 32	waiting: 0
+	executing: NONE
+Time marker 33	waiting: 0
+	executing: NONE
+	created: Job #11 priority(3) created at 33, time left 5
+Time marker 34	waiting: 0
+	executing: Job #11 priority(3) created at 33, time left 5
+	created: Job #12 priority(4) created at 34, time left 1
+Time marker 35	waiting: 1
+	executing: Job #11 priority(3) created at 33, time left 4
+Time marker 36	waiting: 1
+	executing: Job #11 priority(3) created at 33, time left 3
+Time marker 37	waiting: 1
+	executing: Job #11 priority(3) created at 33, time left 2
+	created: Job #13 priority(2) created at 37, time left 1
+Time marker 38	waiting: 2
+	executing: Job #13 priority(2) created at 37, time left 1
+	created: Job #14 priority(1) created at 38, time left 3
+	completed: Current job at time 38
+Time marker 39	waiting: 2
+	executing: Job #14 priority(1) created at 38, time left 3
+	created: Job #15 priority(3) created at 39, time left 2
+Time marker 40	waiting: 3
+	executing: Job #14 priority(1) created at 38, time left 2
+Time marker 41	waiting: 3
+	executing: Job #14 priority(1) created at 38, time left 1
+	completed: Current job at time 41
+Time marker 42	waiting: 2
+	executing: Job #11 priority(3) created at 33, time left 1
+	completed: Current job at time 42
+Time marker 43	waiting: 1
+	executing: Job #15 priority(3) created at 39, time left 2
+Time marker 44	waiting: 1
+	executing: Job #15 priority(3) created at 39, time left 1
+	completed: Current job at time 44
+Time marker 45	waiting: 0
+	executing: Job #12 priority(4) created at 34, time left 1
+	completed: Current job at time 45
+Time marker 46	waiting: 0
+	executing: NONE
+Time marker 47	waiting: 0
+	executing: NONE
+Time marker 48	waiting: 0
+	executing: NONE
+Time marker 49	waiting: 0
+	executing: NONE
+	created: Job #16 priority(2) created at 49, time left 5
+Time marker 50	waiting: 0
+	executing: Job #16 priority(2) created at 49, time left 5
+Time marker 51	waiting: 0
+	executing: Job #16 priority(2) created at 49, time left 4
+Time marker 52	waiting: 0
+	executing: Job #16 priority(2) created at 49, time left 3
+Time marker 53	waiting: 0
+	executing: Job #16 priority(2) created at 49, time left 2
+	created: Job #17 priority(3) created at 53, time left 4
+Time marker 54	waiting: 1
+	executing: Job #16 priority(2) created at 49, time left 1
+	created: Job #18 priority(3) created at 54, time left 5
+	completed: Current job at time 54
+Time marker 55	waiting: 1
+	executing: Job #17 priority(3) created at 53, time left 4
+	created: Job #19 priority(3) created at 55, time left 2
+Time marker 56	waiting: 2
+	executing: Job #17 priority(3) created at 53, time left 3
+Time marker 57	waiting: 2
+	executing: Job #17 priority(3) created at 53, time left 2
+	created: Job #20 priority(4) created at 57, time left 2
+Time marker 58	waiting: 3
+	executing: Job #17 priority(3) created at 53, time left 1
+	completed: Current job at time 58
+Time marker 59	waiting: 2
+	executing: Job #18 priority(3) created at 54, time left 5
+	created: Job #21 priority(2) created at 59, time left 4
+Time marker 60	waiting: 3
+	executing: Job #18 priority(3) created at 54, time left 4
+Time marker 61	waiting: 3
+	executing: Job #18 priority(3) created at 54, time left 3
+Time marker 62	waiting: 3
+	executing: Job #18 priority(3) created at 54, time left 2
+	created: Job #22 priority(2) created at 62, time left 3
+Time marker 63	waiting: 4
+	executing: Job #21 priority(2) created at 59, time left 4
+Time marker 64	waiting: 4
+	executing: Job #21 priority(2) created at 59, time left 3
+	created: Job #23 priority(3) created at 64, time left 4
+Time marker 65	waiting: 5
+	executing: Job #21 priority(2) created at 59, time left 2
+Time marker 66	waiting: 5
+	executing: Job #21 priority(2) created at 59, time left 1
+	completed: Current job at time 66
+Time marker 67	waiting: 4
+	executing: Job #22 priority(2) created at 62, time left 3
+Time marker 68	waiting: 4
+	executing: Job #22 priority(2) created at 62, time left 2
+Time marker 69	waiting: 4
+	executing: Job #22 priority(2) created at 62, time left 1
+	created: Job #24 priority(2) created at 69, time left 5
+	completed: Current job at time 69
+Time marker 70	waiting: 4
+	executing: Job #24 priority(2) created at 69, time left 5
+Time marker 71	waiting: 4
+	executing: Job #24 priority(2) created at 69, time left 4
+Time marker 72	waiting: 4
+	executing: Job #24 priority(2) created at 69, time left 3
+	created: Job #25 priority(2) created at 72, time left 3
+Time marker 73	waiting: 5
+	executing: Job #24 priority(2) created at 69, time left 2
+Time marker 74	waiting: 5
+	executing: Job #25 priority(2) created at 72, time left 3
+	created: Job #26 priority(1) created at 74, time left 5
+Time marker 75	waiting: 6
+	executing: Job #25 priority(2) created at 72, time left 2
+Time marker 76	waiting: 6
+	executing: Job #25 priority(2) created at 72, time left 1
+	created: Job #27 priority(1) created at 76, time left 2
+	completed: Current job at time 76
+Time marker 77	waiting: 6
+	executing: Job #26 priority(1) created at 74, time left 5
+	created: Job #28 priority(4) created at 77, time left 3
+Time marker 78	waiting: 7
+	executing: Job #26 priority(1) created at 74, time left 4
+Time marker 79	waiting: 7
+	executing: Job #26 priority(1) created at 74, time left 3
+Time marker 80	waiting: 7
+	executing: Job #26 priority(1) created at 74, time left 2
+	created: Job #29 priority(3) created at 80, time left 4
+Time marker 81	waiting: 8
+	executing: Job #27 priority(1) created at 76, time left 2
+	created: Job #30 priority(2) created at 81, time left 5
+Time marker 82	waiting: 9
+	executing: Job #27 priority(1) created at 76, time left 1
+	completed: Current job at time 82
+Time marker 83	waiting: 8
+	executing: Job #26 priority(1) created at 74, time left 1
+	completed: Current job at time 83
+Time marker 84	waiting: 7
+	executing: Job #30 priority(2) created at 81, time left 5
+	created: Job #31 priority(1) created at 84, time left 3
+Time marker 85	waiting: 8
+	executing: Job #30 priority(2) created at 81, time left 4
+Time marker 86	waiting: 8
+	executing: Job #30 priority(2) created at 81, time left 3
+	created: Job #32 priority(2) created at 86, time left 3
+Time marker 87	waiting: 9
+	executing: Job #30 priority(2) created at 81, time left 2
+Time marker 88	waiting: 9
+	executing: Job #31 priority(1) created at 84, time left 3
+Time marker 89	waiting: 9
+	executing: Job #31 priority(1) created at 84, time left 2
+Time marker 90	waiting: 9
+	executing: Job #31 priority(1) created at 84, time left 1
+	completed: Current job at time 90
+Time marker 91	waiting: 8
+	executing: Job #24 priority(2) created at 69, time left 1
+	created: Job #33 priority(1) created at 91, time left 5
+	completed: Current job at time 91
+Time marker 92	waiting: 8
+	executing: Job #33 priority(1) created at 91, time left 5
+	created: Job #34 priority(1) created at 92, time left 4
+Time marker 93	waiting: 9
+	executing: Job #33 priority(1) created at 91, time left 4
+Time marker 94	waiting: 9
+	executing: Job #33 priority(1) created at 91, time left 3
+Time marker 95	waiting: 9
+	executing: Job #33 priority(1) created at 91, time left 2
+Time marker 96	waiting: 9
+	executing: Job #34 priority(1) created at 92, time left 4
+Time marker 97	waiting: 9
+	executing: Job #34 priority(1) created at 92, time left 3
+Time marker 98	waiting: 9
+	executing: Job #34 priority(1) created at 92, time left 2
+Time marker 99	waiting: 9
+	executing: Job #34 priority(1) created at 92, time left 1
+	completed: Current job at time 99
+*****************  Final Report  ***************
+	Active jobs:
+Job #30 priority(2) created at 81, time left 1
+Job #32 priority(2) created at 86, time left 3
+Job #29 priority(3) created at 80, time left 4
+Job #18 priority(3) created at 54, time left 1
+Job #23 priority(3) created at 64, time left 4
+Job #19 priority(3) created at 55, time left 2
+Job #28 priority(4) created at 77, time left 3
+Job #20 priority(4) created at 57, time left 2
+
+	The number of jobs currently executing is 8
+	The number of completed jobs is 26
+	The total number of jobs is 34
+	The average time left for unfinished jobs is 2.5
+
+Process finished with exit code 0
+
+
+--Run #2--
+
+***STARTING THE SIMULATION WITH PRIORITY MODE SET TO SORT_BY_LENGTH***
+Time marker 0	waiting: 0
+	executing: NONE
+Time marker 1	waiting: 0
+	executing: NONE
+	created: Job #1 priority(3) created at 1, time left 3
+Time marker 2	waiting: 0
+	executing: Job #1 priority(3) created at 1, time left 3
+	created: Job #2 priority(3) created at 2, time left 3
+Time marker 3	waiting: 1
+	executing: Job #1 priority(3) created at 1, time left 2
+Time marker 4	waiting: 1
+	executing: Job #1 priority(3) created at 1, time left 1
+	created: Job #3 priority(2) created at 4, time left 5
+	completed: Current job at time 4
+Time marker 5	waiting: 1
+	executing: Job #2 priority(3) created at 2, time left 3
+Time marker 6	waiting: 1
+	executing: Job #2 priority(3) created at 2, time left 2
+Time marker 7	waiting: 1
+	executing: Job #2 priority(3) created at 2, time left 1
+	created: Job #4 priority(2) created at 7, time left 3
+	completed: Current job at time 7
+Time marker 8	waiting: 1
+	executing: Job #4 priority(2) created at 7, time left 3
+	created: Job #5 priority(1) created at 8, time left 4
+Time marker 9	waiting: 2
+	executing: Job #4 priority(2) created at 7, time left 2
+	created: Job #6 priority(1) created at 9, time left 5
+Time marker 10	waiting: 3
+	executing: Job #4 priority(2) created at 7, time left 1
+	completed: Current job at time 10
+Time marker 11	waiting: 2
+	executing: Job #5 priority(1) created at 8, time left 4
+Time marker 12	waiting: 2
+	executing: Job #5 priority(1) created at 8, time left 3
+Time marker 13	waiting: 2
+	executing: Job #5 priority(1) created at 8, time left 2
+Time marker 14	waiting: 2
+	executing: Job #5 priority(1) created at 8, time left 1
+	completed: Current job at time 14
+Time marker 15	waiting: 1
+	executing: Job #6 priority(1) created at 9, time left 5
+	created: Job #7 priority(3) created at 15, time left 5
+Time marker 16	waiting: 2
+	executing: Job #6 priority(1) created at 9, time left 4
+Time marker 17	waiting: 2
+	executing: Job #6 priority(1) created at 9, time left 3
+	created: Job #8 priority(3) created at 17, time left 3
+Time marker 18	waiting: 3
+	executing: Job #6 priority(1) created at 9, time left 2
+Time marker 19	waiting: 3
+	executing: Job #6 priority(1) created at 9, time left 1
+	completed: Current job at time 19
+Time marker 20	waiting: 2
+	executing: Job #8 priority(3) created at 17, time left 3
+Time marker 21	waiting: 2
+	executing: Job #8 priority(3) created at 17, time left 2
+	created: Job #9 priority(3) created at 21, time left 2
+Time marker 22	waiting: 3
+	executing: Job #8 priority(3) created at 17, time left 1
+	completed: Current job at time 22
+Time marker 23	waiting: 2
+	executing: Job #9 priority(3) created at 21, time left 2
+	created: Job #10 priority(1) created at 23, time left 4
+Time marker 24	waiting: 3
+	executing: Job #9 priority(3) created at 21, time left 1
+	completed: Current job at time 24
+Time marker 25	waiting: 2
+	executing: Job #10 priority(1) created at 23, time left 4
+Time marker 26	waiting: 2
+	executing: Job #10 priority(1) created at 23, time left 3
+Time marker 27	waiting: 2
+	executing: Job #10 priority(1) created at 23, time left 2
+	created: Job #11 priority(1) created at 27, time left 4
+Time marker 28	waiting: 3
+	executing: Job #10 priority(1) created at 23, time left 1
+	completed: Current job at time 28
+Time marker 29	waiting: 2
+	executing: Job #11 priority(1) created at 27, time left 4
+Time marker 30	waiting: 2
+	executing: Job #11 priority(1) created at 27, time left 3
+Time marker 31	waiting: 2
+	executing: Job #11 priority(1) created at 27, time left 2
+	created: Job #12 priority(4) created at 31, time left 3
+Time marker 32	waiting: 3
+	executing: Job #11 priority(1) created at 27, time left 1
+	created: Job #13 priority(4) created at 32, time left 3
+	completed: Current job at time 32
+Time marker 33	waiting: 3
+	executing: Job #12 priority(4) created at 31, time left 3
+	created: Job #14 priority(1) created at 33, time left 4
+Time marker 34	waiting: 4
+	executing: Job #12 priority(4) created at 31, time left 2
+	created: Job #15 priority(2) created at 34, time left 5
+Time marker 35	waiting: 5
+	executing: Job #12 priority(4) created at 31, time left 1
+	completed: Current job at time 35
+Time marker 36	waiting: 4
+	executing: Job #13 priority(4) created at 32, time left 3
+	created: Job #16 priority(1) created at 36, time left 4
+Time marker 37	waiting: 5
+	executing: Job #13 priority(4) created at 32, time left 2
+Time marker 38	waiting: 5
+	executing: Job #13 priority(4) created at 32, time left 1
+	completed: Current job at time 38
+Time marker 39	waiting: 4
+	executing: Job #14 priority(1) created at 33, time left 4
+	created: Job #17 priority(4) created at 39, time left 2
+Time marker 40	waiting: 5
+	executing: Job #14 priority(1) created at 33, time left 3
+Time marker 41	waiting: 5
+	executing: Job #14 priority(1) created at 33, time left 2
+	created: Job #18 priority(2) created at 41, time left 1
+Time marker 42	waiting: 6
+	executing: Job #14 priority(1) created at 33, time left 1
+	completed: Current job at time 42
+Time marker 43	waiting: 5
+	executing: Job #18 priority(2) created at 41, time left 1
+	created: Job #19 priority(3) created at 43, time left 3
+	completed: Current job at time 43
+Time marker 44	waiting: 5
+	executing: Job #17 priority(4) created at 39, time left 2
+	created: Job #20 priority(2) created at 44, time left 4
+Time marker 45	waiting: 6
+	executing: Job #17 priority(4) created at 39, time left 1
+	completed: Current job at time 45
+Time marker 46	waiting: 5
+	executing: Job #19 priority(3) created at 43, time left 3
+Time marker 47	waiting: 5
+	executing: Job #19 priority(3) created at 43, time left 2
+	created: Job #21 priority(1) created at 47, time left 4
+Time marker 48	waiting: 6
+	executing: Job #19 priority(3) created at 43, time left 1
+	completed: Current job at time 48
+Time marker 49	waiting: 5
+	executing: Job #16 priority(1) created at 36, time left 4
+Time marker 50	waiting: 5
+	executing: Job #16 priority(1) created at 36, time left 3
+Time marker 51	waiting: 5
+	executing: Job #16 priority(1) created at 36, time left 2
+Time marker 52	waiting: 5
+	executing: Job #16 priority(1) created at 36, time left 1
+	completed: Current job at time 52
+Time marker 53	waiting: 4
+	executing: Job #21 priority(1) created at 47, time left 4
+Time marker 54	waiting: 4
+	executing: Job #21 priority(1) created at 47, time left 3
+Time marker 55	waiting: 4
+	executing: Job #21 priority(1) created at 47, time left 2
+Time marker 56	waiting: 4
+	executing: Job #21 priority(1) created at 47, time left 1
+	completed: Current job at time 56
+Time marker 57	waiting: 3
+	executing: Job #20 priority(2) created at 44, time left 4
+Time marker 58	waiting: 3
+	executing: Job #20 priority(2) created at 44, time left 3
+Time marker 59	waiting: 3
+	executing: Job #20 priority(2) created at 44, time left 2
+	created: Job #22 priority(1) created at 59, time left 3
+Time marker 60	waiting: 4
+	executing: Job #20 priority(2) created at 44, time left 1
+	completed: Current job at time 60
+Time marker 61	waiting: 3
+	executing: Job #22 priority(1) created at 59, time left 3
+Time marker 62	waiting: 3
+	executing: Job #22 priority(1) created at 59, time left 2
+Time marker 63	waiting: 3
+	executing: Job #22 priority(1) created at 59, time left 1
+	created: Job #23 priority(3) created at 63, time left 4
+	completed: Current job at time 63
+Time marker 64	waiting: 3
+	executing: Job #23 priority(3) created at 63, time left 4
+	created: Job #24 priority(4) created at 64, time left 1
+Time marker 65	waiting: 4
+	executing: Job #23 priority(3) created at 63, time left 3
+Time marker 66	waiting: 4
+	executing: Job #23 priority(3) created at 63, time left 2
+	created: Job #25 priority(2) created at 66, time left 3
+Time marker 67	waiting: 5
+	executing: Job #23 priority(3) created at 63, time left 1
+	completed: Current job at time 67
+Time marker 68	waiting: 4
+	executing: Job #24 priority(4) created at 64, time left 1
+	completed: Current job at time 68
+Time marker 69	waiting: 3
+	executing: Job #25 priority(2) created at 66, time left 3
+	created: Job #26 priority(1) created at 69, time left 5
+Time marker 70	waiting: 4
+	executing: Job #25 priority(2) created at 66, time left 2
+Time marker 71	waiting: 4
+	executing: Job #25 priority(2) created at 66, time left 1
+	completed: Current job at time 71
+Time marker 72	waiting: 3
+	executing: Job #3 priority(2) created at 4, time left 5
+Time marker 73	waiting: 3
+	executing: Job #3 priority(2) created at 4, time left 4
+Time marker 74	waiting: 3
+	executing: Job #3 priority(2) created at 4, time left 3
+Time marker 75	waiting: 3
+	executing: Job #3 priority(2) created at 4, time left 2
+Time marker 76	waiting: 3
+	executing: Job #3 priority(2) created at 4, time left 1
+	created: Job #27 priority(4) created at 76, time left 3
+	completed: Current job at time 76
+Time marker 77	waiting: 3
+	executing: Job #27 priority(4) created at 76, time left 3
+Time marker 78	waiting: 3
+	executing: Job #27 priority(4) created at 76, time left 2
+	created: Job #28 priority(2) created at 78, time left 1
+Time marker 79	waiting: 4
+	executing: Job #27 priority(4) created at 76, time left 1
+	completed: Current job at time 79
+Time marker 80	waiting: 3
+	executing: Job #28 priority(2) created at 78, time left 1
+	completed: Current job at time 80
+Time marker 81	waiting: 2
+	executing: Job #7 priority(3) created at 15, time left 5
+	created: Job #29 priority(4) created at 81, time left 3
+Time marker 82	waiting: 3
+	executing: Job #7 priority(3) created at 15, time left 4
+	created: Job #30 priority(1) created at 82, time left 5
+Time marker 83	waiting: 4
+	executing: Job #7 priority(3) created at 15, time left 3
+Time marker 84	waiting: 4
+	executing: Job #7 priority(3) created at 15, time left 2
+Time marker 85	waiting: 4
+	executing: Job #7 priority(3) created at 15, time left 1
+	completed: Current job at time 85
+Time marker 86	waiting: 3
+	executing: Job #29 priority(4) created at 81, time left 3
+Time marker 87	waiting: 3
+	executing: Job #29 priority(4) created at 81, time left 2
+	created: Job #31 priority(3) created at 87, time left 3
+Time marker 88	waiting: 4
+	executing: Job #29 priority(4) created at 81, time left 1
+	created: Job #32 priority(1) created at 88, time left 1
+	completed: Current job at time 88
+Time marker 89	waiting: 4
+	executing: Job #32 priority(1) created at 88, time left 1
+	created: Job #33 priority(2) created at 89, time left 1
+	completed: Current job at time 89
+Time marker 90	waiting: 4
+	executing: Job #33 priority(2) created at 89, time left 1
+	completed: Current job at time 90
+Time marker 91	waiting: 3
+	executing: Job #31 priority(3) created at 87, time left 3
+Time marker 92	waiting: 3
+	executing: Job #31 priority(3) created at 87, time left 2
+	created: Job #34 priority(3) created at 92, time left 1
+Time marker 93	waiting: 4
+	executing: Job #31 priority(3) created at 87, time left 1
+	created: Job #35 priority(4) created at 93, time left 4
+	completed: Current job at time 93
+Time marker 94	waiting: 4
+	executing: Job #34 priority(3) created at 92, time left 1
+	completed: Current job at time 94
+Time marker 95	waiting: 3
+	executing: Job #35 priority(4) created at 93, time left 4
+Time marker 96	waiting: 3
+	executing: Job #35 priority(4) created at 93, time left 3
+Time marker 97	waiting: 3
+	executing: Job #35 priority(4) created at 93, time left 2
+	created: Job #36 priority(3) created at 97, time left 2
+Time marker 98	waiting: 4
+	executing: Job #35 priority(4) created at 93, time left 1
+	completed: Current job at time 98
+Time marker 99	waiting: 3
+	executing: Job #36 priority(3) created at 97, time left 2
+	created: Job #37 priority(3) created at 99, time left 1
+*****************  Final Report  ***************
+	Active jobs:
+Job #37 priority(3) created at 99, time left 1
+Job #30 priority(1) created at 82, time left 5
+Job #15 priority(2) created at 34, time left 5
+Job #26 priority(1) created at 69, time left 5
+
+	The number of jobs currently executing is 4
+	The number of completed jobs is 33
+	The total number of jobs is 37
+	The average time left for unfinished jobs is 4.0
+
+Process finished with exit code 0
